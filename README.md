@@ -38,7 +38,7 @@ Arg9    : sigmoid width [ang] (def: 5.0)
 Arg10   : sigmoid shift [ang] (def: 3.0)
 
 - output  
-_BVSxmap.rho_  <--  the file to visualize diffusion pathways on VESTA  
+_BVSxmap.rho_  <--  the file to visualize diffusion pathways on the VESTA  
 _BVSx_xyzp.dat_  <--  the file to caluculate potential curve and migration barrier by percolation theory
 
 
