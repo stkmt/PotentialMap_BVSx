@@ -1,5 +1,5 @@
 # PotentialMap_BVSx
-This program is going to create a potential map of mobile ions. This map (.rho format file) is used for visualizing diffusion pathways on the VESTA software.
+This program is going to create a potential map of mobile ions. This map (.rho format file) is used for visualizing diffusion pathways on the [VESTA](http://jp-minerals.org/vesta/en/) software.
 
 ![image](https://user-images.githubusercontent.com/80811293/125252205-0dd78f00-e333-11eb-8948-4f84d0c87178.png)
 
@@ -38,6 +38,10 @@ Arg7    : if remove mobile ion, True or False (def: True)
 Arg8    : if use sigmoid function, True or False (if Arg6 equals False, you should use this.  def: False)  
 Arg9    : sigmoid width [ang] (def: 5.0)  
 Arg10   : sigmoid shift [ang] (def: 3.0)
+
+- output  
+_BVSxmap.rho_  <--  the file to visualize diffusion pathways on VESTA  
+_BVSx_xyzp.dat_  <--  the file to caluculate potential curve and migration barrier by percolation theory
 
 
 ## License
