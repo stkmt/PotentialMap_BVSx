@@ -29,13 +29,13 @@ $ python percolation.py Arg1 Arg2 Arg3 (Arg4) (Arg5) (Arg6) (Arg7) (Arg8) (Arg9)
 Arg1    : pmd file (eg. pmdini)  
 Arg2    : mobile ion (eg. Li)  
 Arg3    : nominal charge of Arg2 ion (eg. 1.0)  
-Arg4    : cutoff interatom distance for BVS-FF calc [ang] (def: 6.0)  
-Arg5    : mesh resolution [mesh/ang] (def: 5.0)  
+Arg4    : cutoff interatom distance for BVS-FF calc [Å] (def: 6.0)  
+Arg5    : mesh resolution [mesh/Å] (def: 5.0)  
 Arg6    : 3-body ions for angular potential (eg. Li-O-O,Li-Cl-Cl (it is okay to select more than 2))  (def: None)  
 Arg7    : if remove mobile ion, True or False (def: True)  
 Arg8    : if use sigmoid function, True or False (if Arg6 equals False, you should use this.  def: False)  
-Arg9    : sigmoid width [ang] (def: 5.0)  
-Arg10   : sigmoid shift [ang] (def: 3.0)
+Arg9    : sigmoid width [Å] (def: 5.0)  
+Arg10   : sigmoid shift [Å] (def: 3.0)
 
 - output  
 _BVSxmap.rho_  <--  the file to visualize diffusion pathways on the VESTA  
