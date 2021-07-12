@@ -5,7 +5,7 @@ This program is going to create a potential map of mobile ions. This map (.rho f
 
 
 ## Dependency
-To run potentialmap.ppy
+To run potentialmap.py
 Python 3.7.7  <-- already checked
 - module
 
