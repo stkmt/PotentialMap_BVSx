@@ -7,14 +7,14 @@ This program is going to create a potential map of mobile ions. This map (.rho f
 ## Dependency
 To run potentialmap.py
 Python 3.7.7  <-- already checked
-- module
+- module  
 _shutil_  
 _sys_  
 _math_  
 _numpy_  
 _time_
 
-- files (all files are from [_nap_](https://github.com/ryokbys/nap) made by [ryo kobayashi](https://github.com/ryokbys))
+- files (all files are from [_nap_](https://github.com/ryokbys/nap) made by [ryo kobayashi](https://github.com/ryokbys))  
 _pmdini_  
 _in.params.Coulomb_  
 _in.params.Morse_  
